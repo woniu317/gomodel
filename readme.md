@@ -21,7 +21,6 @@ model/teacher/engine.go
 例如:
 technologyEngine().Get……
 
-
 ### model增加错误处理
 
 例如:

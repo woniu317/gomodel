@@ -2,21 +2,20 @@ package main
 
 import (
 	"fmt"
+	"log"
 
 	"model/service/teacher"
-
-	"github.com/YunzhanghuOpen/glog"
 )
 
 func main() {
 	var teacherId int64
 	teacher, err := teacher.GetBaseInfo(teacherId)
 	if err != nil {
-		glog.Info("Query teacher error!")
+		log.Println("Query teacher error!")
 		return
 	}
 	if teacher == nil {
-		glog.Info("No teacher")
+		log.Println("No teacher")
 		return
 	}
 	fmt.Println(teacher)

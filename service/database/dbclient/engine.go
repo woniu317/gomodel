@@ -1,9 +1,9 @@
 package dbclient
 
 import (
+	"log"
 	"model/config"
 
-	"github.com/YunzhanghuOpen/glog"
 	"github.com/jmoiron/sqlx"
 )
 
@@ -20,7 +20,7 @@ func init() {
 func initDB(mysql config.Mysql) *sqlx.DB {
 	db, err := sqlx.Connect("mysql", mysql.Server)
 	if err != nil {
-		glog.Fatalf("Initialization mysql driver failed, err: %v", err)
+		log.Fatalf("Initialization mysql driver failed, err: %v", err)
 	}
 	db.SetMaxIdleConns(mysql.MaxIdle)
 	db.SetMaxOpenConns(mysql.MaxOpen)

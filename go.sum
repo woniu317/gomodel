@@ -1,7 +1,6 @@
 github.com/DATA-DOG/go-sqlmock v1.4.0 h1:yxQ63CFIA8Sxkh0vqIofuNrsXl/LZ42TpeTLV4Nb5HM=
 github.com/DATA-DOG/go-sqlmock v1.4.0/go.mod h1:3TucWNLPFOLcHhha1CPp7Kis1UG2h/AqGROPyOeZzsM=
-github.com/YunzhanghuOpen/glog v0.0.0-20200310081735-2f745a751def h1:1EGChxcQK8cMJCwbUMAlrjpMpRzbDup0Tj1+gX7pEWQ=
-github.com/YunzhanghuOpen/glog v0.0.0-20200310081735-2f745a751def/go.mod h1:vrnvWErFmr6v/7L2ry3QV1Yb5DsROxBzKaBWNQtMDEI=
+github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/didi/gendry v1.3.2/go.mod h1:cSLuShZ1Zbs1S05RIOLNQv616aBaOQ1BDrXJP9A3J+M=
 github.com/go-sql-driver/mysql v1.4.0 h1:7LxgVwFb2hIQtMm87NdgAVfXjnt4OePseqT1tKx+opk=
